@@ -1,45 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dating Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Enter Your Details For Our Dating Website</h1>
-    <form action="https://us-central1-nucamp-production.cloudformations.net/post/formdata" method="post" enctype="multipart/formdata">
-    <fieldset>
+    <form
+      action="https://us-central1-nucamp-production.cloudformations.net/post/formdata"
+      method="post"
+      enctype="multipart/formdata"
+    >
+      <fieldset>
         <legend>Your Face</legend>
         <div>
-            <label for="avatar">Upload Your Image:</label>
-            <input type="file" name="avatar" id="avatar" required>
+          <label for="avatar">Upload Your Image:</label>
+          <input type="file" name="avatar" id="avatar" required />
         </div>
         <div>
-            <p>Image Preview:</p>
-            <img id="preview" alt="My Face" width="500" />
+          <p>Image Preview:</p>
+          <img id="preview" alt="My Face" width="500" />
         </div>
-    </fieldset>
-    <fieldset>
+      </fieldset>
+      <fieldset>
         <legend>Your Details</legend>
         <div>
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" placeholder="Your full name">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your full name"
+          />
         </div>
         <div>
-            <label>Gender:</label>
-            <input type="radio" name="gender" id="woman" required>
-            <label for="woman">Woman</label>
-            <input type="radio" id="man" name="gender" value="man" >
-            <label for="man">Man</label>
-            <input type="radio" name="gender" id="nonbinary">
-            <label for="nonbinary">Non-binary</label>
-            <input type="radio" id="other" name="gender" value="other" >
-            <label for="other">Other</label>
+          <label>Gender:</label>
+          <input type="radio" name="gender" id="woman" required />
+          <label for="woman">Woman</label>
+          <input type="radio" id="man" name="gender" value="man" />
+          <label for="man">Man</label>
+          <input type="radio" name="gender" id="nonbinary" />
+          <label for="nonbinary">Non-binary</label>
+          <input type="radio" id="other" name="gender" value="other" />
+          <label for="other">Other</label>
         </div>
-    </fieldset>
+        <div>
+          <label for="age">Age:</label>
+          <input type="number" name="age" id="age" />
+          <div></div>
+        </div>
+      </fieldset>
     </form>
-    </body>
     <!-- Javascript Files-->
-     <script src="https://url.nucamp.co/datingjs"></script>
-</body>
+    <script src="https://url.nucamp.co/datingjs"></script>
+  </body>
 </html>
