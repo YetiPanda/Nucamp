@@ -54,19 +54,32 @@
           <input type="date" name="dob" id="dob" />
         </div>
         <div>
-            <label for="color">Favorite Color:</label>
-            <input type="color" id="color" name="color">
+          <label for="color">Favorite Color:</label>
+          <input type="color" id="color" name="color" />
         </div>
         <div>
-            <label for="country">Country:</label>
-            <select name="country" id="country">
-                <option value="country">Choose a country</option>
-                <option value="brazil">Brazil</option>
-                <option value="france">France</option>
-                <option value="japan">Japan</option>
-                <option value="libya">Libya</option>
-                <option value="usa">U.S.A.</option>
-            </select >
+          <label for="country">Country:</label>
+          <select name="country" id="country">
+            <option value="country">Choose a country</option>
+            <option value="brazil">Brazil</option>
+            <option value="france">France</option>
+            <option value="japan">Japan</option>
+            <option value="libya">Libya</option>
+            <option value="usa">U.S.A.</option>
+          </select>
+        </div>
+        <div>
+          <label for="salary">Salary:</label>
+          <span class="range-caption">Poor</span>
+          <input
+            type="range"
+            id="salary"
+            name="salary"
+            min="0"
+            max="100"
+            value="50"
+          />
+          <span class="range-caption">Rich</span>
         </div>
       </fieldset>
     </form>
