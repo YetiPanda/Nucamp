@@ -18,3 +18,12 @@ fieldset {
   margin-bottom: 10px;
   width: 720px;
 }
+div {
+  margin: 10px;
+}
+label {
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  width: 200px;
+}
