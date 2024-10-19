@@ -1,0 +1,13 @@
+/* Dating Form CSS - Nucamp*/
+body {
+    font-family: "Verdana", "Arial", "sans-serif";
+}
+p {
+    margin: 0;
+}
+legend {
+    background-color: purple;
+    border-radius: 10px;
+    padding: 12px;
+    color: white;
+}
