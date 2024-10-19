@@ -43,8 +43,6 @@
           <label for="man">Man</label>
           <input type="radio" name="gender" id="nonbinary" />
           <label for="nonbinary">Non-binary</label>
-          <input type="radio" id="other" name="gender" value="other" />
-          <label for="other">Other</label>
         </div>
         <div>
           <label for="age">Age:</label>
@@ -90,23 +88,33 @@
           <input type="email" id="email" name="email" required />
         </div>
         <div>
-            <label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" />
         </div>
         <div>
-            <label for="address">Address:</label>
-            <textarea name="address" id="address" cols="40"></textarea>
+          <label for="address">Address:</label>
+          <textarea name="address" id="address" cols="40"></textarea>
         </div>
         <div>
-            <label>Contact method(s):</label>
-            <input type="checkbox" name="contact" id="emailCheckbox" value="email">
-            <label for="emailCheckbox">Email</label>
-            <input type="checkbox" name="contact" id="phoneCheckbox" value="phone">
-            <label for="phoneCheckbox">Phone</label>
+          <label>Contact method(s):</label>
+          <input
+            type="checkbox"
+            name="contact"
+            id="emailCheckbox"
+            value="email"
+          />
+          <label for="emailCheckbox">Email</label>
+          <input
+            type="checkbox"
+            name="contact"
+            id="phoneCheckbox"
+            value="phone"
+          />
+          <label for="phoneCheckbox">Phone</label>
         </div>
       </fieldset>
       <div>
-        <input type="submit">
+        <input type="submit" />
       </div>
     </form>
     <!-- Javascript Files-->
